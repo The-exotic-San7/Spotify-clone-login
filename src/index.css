@@ -1,0 +1,167 @@
+body{
+  text-align: center;
+  padding-bottom: 10px;
+  
+  padding-bottom: 50px;
+  overflow-x: hidden;
+  font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+  width: auto;
+}
+img{
+  position: relative;
+  top:13px;
+  right:10px;
+
+}
+.spotify{
+  width: 13%;
+}
+.button{
+  background-color: #355a94;
+  transition: 0.3s;
+}
+.button:hover{
+  background-color:#3e73b3;
+  
+}
+.buttonapple{
+  background-color: black;
+  transition: 0.3s;
+}
+.buttonapple:hover{
+  background-color:#333633;
+}
+.buttongoogle{
+  background-color: white;
+  transition: 0.3s;
+}
+.buttongoogle:hover{
+  background-color: #4a4947
+  
+}
+.buttongoogle:hover span{
+  color: white;
+}
+.buttonphone{
+  background-color: white;
+  transition: 0.3s;
+}
+.buttonphone:hover{
+  background-color: #4a4947;
+}
+.buttonphone:hover span{
+  color: white;
+}
+.cbox
+{border:1px solid red;background:yellow;}
+.buttonlog{
+  transition: 0.3s;
+  cursor: pointer;
+  background-color:#247514;
+  width: 220px;
+  height: 50px;
+  
+}
+.buttonlog:hover{
+  background-color:#3f942f
+}
+.image{
+  position: relative;
+  transition: 0.3s;
+  
+}
+.image:hover{
+  padding-right: 373px;
+}
+.loader {
+  position: relative;
+  top: 300px;
+  right: -735px;
+  border: 6px solid lightgrey;
+  border-radius: 50%;
+  border-top: 6px solid black;
+  width: 45px;
+  height: 45px;
+  
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@media only screen and (max-device-width: 600px){
+  .spotify{
+    min-width: 200px;
+    
+  }
+  .button{
+    position: relative;
+   left: -5px;
+    max-width: 370px;
+  }
+  .buttonapple{
+    position: relative;
+    left: -5px;
+    max-width: 370px;
+  }
+  .buttongoogle{
+    position: relative;
+    left: -5px;
+    max-width: 370px;
+  }
+  .buttonphone{
+    position: relative;
+    left: -5px;
+    max-width: 370px;
+  }
+  .text{
+    
+    
+    
+ 
+    margin-right: -70px;
+    
+  }
+  .input{
+    max-width: 350px;
+   
+    margin-right: 10px;
+      
+      
+  }
+  .password{
+    max-width: 350px;
+    margin-right: 10px;
+  }
+  .pass{
+  margin-right: -70px;
+  }
+  .forgot{
+    margin-left: 80px;
+  }
+ .rem{
+   position: relative;
+   top: -120px;
+   margin-right: -50px;
+
+ }
+ .cbox{
+   position: relative;
+   top: -115px;
+ }
+ .buttonlog{
+   width: 350px;
+   margin-left: -180px;
+   margin-top: 80px;
+   position: relative;
+   
+
+ }
+}
